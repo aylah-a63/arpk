@@ -1,0 +1,9 @@
+[package]
+name = "arpk"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+description = "dnf-style package front end for Arch Linux, built on libalpm"
+
+[dependencies]
+clap = { version = "4.6", features = ["derive"] }
